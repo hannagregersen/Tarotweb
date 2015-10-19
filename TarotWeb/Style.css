@@ -3,9 +3,8 @@ body{
 	margin: 0;
 	padding: 0;
     background-color:lightgrey;
-    width: 1700px;
-    font-size: 100%
-   
+    width: auto;
+    max-width: 2000px;
 }
 /****End*****/
 
@@ -49,7 +48,7 @@ spantag in the html (h1), please change this comment if you decide to use it****
 	padding: 1em;
     -webkit-box-shadow: inset -1px 1px rgba(15,10,15,1);
 	-moz-box-shadow: inset -1px 1px rgba(15,10,15,1);
-	box-shadow: inset -1px 1px rgba(15,10,15,1);o
+	box-shadow: inset -1px 1px rgba(15,10,15,1);
 	}
 ul{
 	list-style-type: none; /***removes default link decoration****/
@@ -77,6 +76,7 @@ including a content wrapper and left/right-div*******/
 		display: block;
 		float: left;
 		width: auto;
+        height: 500px;
 		padding: 0.7em;
 		-webkit-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
 		-moz-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
@@ -87,15 +87,18 @@ including a content wrapper and left/right-div*******/
 #rightdiv{
 	display: block;
 	float: left;
-	width: 50em;
+	width: auto;
+    max-width:inherit;
 	padding: 0.7em;
 	-webkit-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
 	-moz-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
 	box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
 	margin: inherit;
 	background-color: white;
-	height: 500px;
+    height:500px;
 	overflow: hidden;
+    width:1000px;
+
 	}
 #cardholder img{
     position:center;
