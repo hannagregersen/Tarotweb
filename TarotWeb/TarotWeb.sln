@@ -6,7 +6,6 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5CDD8901-8A4E-4B15-8064-46F43CBD7A95}"
 	ProjectSection(SolutionItems) = preProject
 		CardsPage.html = CardsPage.html
-		GamePage.html = GamePage.html
 		HistoryPage.html = HistoryPage.html
 		HomeEmpress.jpg = HomeEmpress.jpg
 		illuminati-thefool.jpg = illuminati-thefool.jpg
