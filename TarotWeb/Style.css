@@ -76,6 +76,7 @@ including a content wrapper and left/right-div*******/
 		display: block;
 		float: left;
 		width: auto;
+        height: 500px;
 		padding: 0.7em;
 		-webkit-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
 		-moz-box-shadow: 1px -1px 12px 1px rgba(15,10,15,1);
